@@ -7,7 +7,11 @@ import java.util.List;
 import javax.annotation.Generated;
 import org.springframework.stereotype.Component;
 
-
+@Generated(
+    value = "org.mapstruct.ap.MappingProcessor",
+    date = "2022-04-26T23:18:45-0500",
+    comments = "version: 1.3.1.Final, compiler: Eclipse JDT (IDE) 1.4.100.v20220318-0906, environment: Java 17.0.2 (Eclipse Adoptium)"
+)
 @Component
 public class InvoiceRequestMapperImpl implements InvoiceRequestMapper {
 
